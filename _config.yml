@@ -9,7 +9,7 @@
 title: maloney.ws
 email: niall@maloney.ws
 description: > # this means to ignore newlines until "baseurl:"
-  There will be a description... eventually 😄
+  There will be a description... eventually. 😄
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://maloney.ws" # the base hostname & protocol for your site
 twitter_username: maloney_ws
