@@ -1,0 +1,2 @@
+# maloney.ws
+personal website.
