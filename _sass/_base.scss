@@ -1,3 +1,19 @@
+html {
+    --text-color:       #282c34;
+    --background-color: #ffe3d3;
+    --link-color:       #ffbcaf;
+    --link-color-light: #282c34;
+}
+
+@media (prefers-color-scheme: dark) {
+   html { 
+        --text-color:       #fdada2;
+        --background-color: #282c34;
+        --link-color:       #575b64;
+        --link-color-light: #fdada2;
+    }
+}
+
 /**
  * Reset some basic elements
  */
