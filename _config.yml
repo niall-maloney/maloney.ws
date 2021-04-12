@@ -2,7 +2,7 @@
 title: maloney.ws
 person_name: niall-maloney
 email: niall@maloney.ws
-description: another personal github pages site. 🙄
+description: backend dev - c#, docker, k8s
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://maloney.ws" # the base hostname & protocol for your site
 twitter_username: maloney_ws

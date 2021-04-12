@@ -1,17 +1,21 @@
 ---
 layout: default
 ---
+
 <header class="site-header">
   <div class="site-header-container">
     <span class="content">
+      <div class="site-mode">
+        <a href="" id="theme-toggle" onclick="switchMode()"><i class="fas fa-adjust" id="theme-toggle-icon"></i></a>
+      </div>
       <span class="site-title">
         <span class="site-name">{{ site.person_name }}</span>
       </span>
       <div class="site-links">
-        <a href="https://twitter.com/{{ site.twitter_username }}"><i class="fa fa-twitter"></i></a>
-        <a href="http://www.linkedin.com/in/{{ site.linkedin_username }}"><i class="fa fa-linkedin"></i></a>
-        <a href="https://github.com/{{ site.github_username }}"><i class="fa fa-github"></i></a>
-        <a href="http://open.spotify.com/user/{{ site.spotify_username }}"><i class="fa fa-spotify"></i></a>
+        <a href="https://twitter.com/{{ site.twitter_username }}"><i class="fab fa-twitter"></i></a>
+        <a href="http://www.linkedin.com/in/{{ site.linkedin_username }}"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/{{ site.github_username }}"><i class="fab fa-github"></i></a>
+        <a href="http://open.spotify.com/user/{{ site.spotify_username }}"><i class="fab fa-spotify"></i></a>
       </div>
     </span>
   </div>

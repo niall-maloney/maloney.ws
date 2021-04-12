@@ -12,10 +12,11 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #fdada2;
-$background-color: #282c34;
-$link-color:       #575b64;
-$link-color-light: #fdada2;
+$text-color:       var(--text-color);
+$background-color: var(--background-color);
+$link-color:       var(--link-color);
+$link-color-light: var(--link-color-light);
+$toggle-color:     var(--toggle-color);
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
