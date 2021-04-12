@@ -54,3 +54,17 @@
       }
     }
   }
+
+
+.site-mode {
+  font-size: 24px;
+  font-weight: 250;
+
+  a {
+    float: center;
+    color: $toggle-color;
+    position: relative;
+    padding: 0px 10px;
+    white-space: nowrap;
+  }
+}
