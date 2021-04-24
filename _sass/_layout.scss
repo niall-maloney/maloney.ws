@@ -68,9 +68,3 @@
     white-space: nowrap;
   }
 }
-
-@media (prefers-color-scheme: dark) {
-  .theme-toggle {
-    transform: rotate(180);
-  }
-}
