@@ -55,12 +55,12 @@
     }
   }
 
-
 .site-mode {
   font-size: 24px;
   font-weight: 250;
 
-  a {
+  span {
+    cursor: pointer;
     float: center;
     color: $toggle-color;
     position: relative;
