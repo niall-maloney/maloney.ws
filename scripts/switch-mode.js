@@ -6,7 +6,7 @@ prefersDark.addEventListener("change", setPreferredMode);
 function darkMode(theme){
 	document.documentElement.setAttribute('data-theme', 'dark');
 	sessionStorage.setItem('theme', theme);
-	document.getElementById("theme-toggle").classList.remove('fa-flip-horizontal');
+	document.getElementById("theme-toggle-icon").classList.remove('fa-flip-horizontal');
 }
 
 function lightMode(theme){
