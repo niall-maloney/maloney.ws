@@ -1,5 +1,5 @@
 # Site settings
-title: maloney.ws
+title: niall-maloney
 person_name: niall-maloney
 email: niall@maloney.ws
 description: backend dev - c#, docker, k8s
@@ -10,5 +10,20 @@ github_username:  niall-maloney
 linkedin_username: niall-maloney
 spotify_username: fozzi_bear
 
+# SEO settings
+author:
+  name: Niall Maloney
+locale: en_GB
+google_site_verification: ed2TEpwgV62reyvlGJ8A0WZJnLLTJ0C_todSCj1Mds4
+social:
+  links:
+    - https://twitter.com/maloney_ws
+    - https://www.linkedin.com/in/niall-maloney
+    - https://github.com/niall-maloney
+
 # Build settings
 markdown: kramdown
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
