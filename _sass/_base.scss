@@ -1,34 +1,38 @@
 html, html[data-theme="light"] {
-    --text-color:       #282c34;
-    --background-color: #ffe3d3;
-    --link-color:       #ffbcaf;
-    --link-color-light: #282c34;
-    --toggle-color:     #282c34;
+    --text-color:         #282c34;
+    --background-color:   #ffe3d3;
+    --link-color:         #ffbcaf;
+    --link-color-light:   #282c34;
+    --toggle-color:       #ffbcaf;
+    --toggle-color-light: #282c34;
 }
 
 html, html[data-theme="dark"] { 
-    --text-color:       #fdada2;
-    --background-color: #282c34;
-    --link-color:       #575b64;
-    --link-color-light: #fdada2;
-    --toggle-color:     #fdada2;
+    --text-color:         #fdada2;
+    --background-color:   #282c34;
+    --link-color:         #575b64;
+    --link-color-light:   #fdada2;
+    --toggle-color:       #575b64;
+    --toggle-color-light: #fdada2;
 }
 
 @media (prefers-color-scheme: dark) {
    html, html[data-theme="dark"] { 
-        --text-color:       #fdada2;
-        --background-color: #282c34;
-        --link-color:       #575b64;
-        --link-color-light: #fdada2;
-        --toggle-color:     #fdada2;
+        --text-color:         #fdada2;
+        --background-color:   #282c34;
+        --link-color:         #575b64;
+        --link-color-light:   #fdada2;
+        --toggle-color:       #575b64;
+        --toggle-color-light: #fdada2;
     }
     
     html, html[data-theme="light"] {
-        --text-color:       #282c34;
-        --background-color: #ffe3d3;
-        --link-color:       #ffbcaf;
-        --link-color-light: #282c34;
-        --toggle-color:     #282c34;
+        --text-color:         #282c34;
+        --background-color:   #ffe3d3;
+        --link-color:         #ffbcaf;
+        --link-color-light:   #282c34;
+        --toggle-color:       #ffbcaf;
+        --toggle-color-light: #282c34;
     }
 }
 

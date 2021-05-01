@@ -66,5 +66,9 @@
     position: relative;
     padding: 0px 10px;
     white-space: nowrap;
+
+    &:hover {
+      color: $toggle-color-light;
+    }
   }
 }
