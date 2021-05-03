@@ -45,7 +45,7 @@
       padding: 0px 10px;
       white-space: nowrap;
 
-      @media (hover: hover)  and (pointer: fine){
+      @media (hover: hover)  and (pointer: fine) {
         &:hover {
           color: $link-color-light;
         }
@@ -65,7 +65,7 @@
     padding: 0px 10px;
     white-space: nowrap;
 
-    @media (hover: hover)  and (pointer: fine){
+    @media (hover: hover)  and (pointer: fine) {
       &:hover {
         color: $toggle-color-light;
       }
