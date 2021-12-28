@@ -1,38 +1,38 @@
 html, html[data-theme="light"] {
-    --text-color:         #282c34;
+    --text-color:         #0f2139;
     --background-color:   #ffe3d3;
-    --link-color:         #ffbcaf;
-    --link-color-light:   #282c34;
-    --toggle-color:       #ffbcaf;
-    --toggle-color-light: #282c34;
+    --link-color:         #ffa8ac;
+    --link-color-light:   #0f2139;
+    --toggle-color:       #ffa8ac;
+    --toggle-color-light: #0f2139;
 }
 
 html, html[data-theme="dark"] { 
     --text-color:         #fdada2;
-    --background-color:   #282c34;
-    --link-color:         #575b64;
+    --background-color:   #0f2139;
+    --link-color:         #3a496b;
     --link-color-light:   #fdada2;
-    --toggle-color:       #575b64;
+    --toggle-color:       #3a496b;
     --toggle-color-light: #fdada2;
 }
 
 @media (prefers-color-scheme: dark) {
    html, html[data-theme="dark"] { 
         --text-color:         #fdada2;
-        --background-color:   #282c34;
-        --link-color:         #575b64;
+        --background-color:   #0f2139;
+        --link-color:         #3a496b;
         --link-color-light:   #fdada2;
-        --toggle-color:       #575b64;
+        --toggle-color:       #3a496b;
         --toggle-color-light: #fdada2;
     }
     
     html, html[data-theme="light"] {
-        --text-color:         #282c34;
+        --text-color:         #0f2139;
         --background-color:   #ffe3d3;
-        --link-color:         #ffbcaf;
-        --link-color-light:   #282c34;
-        --toggle-color:       #ffbcaf;
-        --toggle-color-light: #282c34;
+        --link-color:         #ffa8ac;
+        --link-color-light:   #0f2139;
+        --toggle-color:       #ffa8ac;
+        --toggle-color-light: #0f2139;
     }
 }
 
