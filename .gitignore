@@ -8,6 +8,15 @@
 ehthumbs.db
 Thumbs.db
 
+# Jetbrains fleet #
+###################
+.fleet
+
+# Ruby #
+########
+Gemfile
+Gemfile.lock
+
 # Jekyll #
 ##########
 _site
