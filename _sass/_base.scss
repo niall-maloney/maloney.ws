@@ -1,38 +1,54 @@
 html, html[data-theme="light"] {
-    --text-color:         #232425;
-    --background-color:   #ede8e5;
-    --link-color:         #dccbcc;
-    --link-color-light:   #232425;
-    --toggle-color:       #dccbcc;
-    --toggle-color-light: #232425;
+    --text-color:               #4c4f69;
+    --background-color:         #eff1f5;
+    --link-color:               #ccd0da;
+    --link-color-light:         #5c5f77;
+    --toggle-color:             #ccd0da;
+    --toggle-color-light:       #e64553;
+    --x-color-light:            #5c5f77;
+    --linkedin-color-light:     #1e66f5;
+    --github-color-light:       #5c5f77;
+    --spotify-color-light:      #40a02b;
 }
 
-html, html[data-theme="dark"] { 
-    --text-color:         #ede8e5;
-    --background-color:   #232425;
-    --link-color:         #494f5c;
-    --link-color-light:   #ede8e5;
-    --toggle-color:       #494f5c;
-    --toggle-color-light: #ede8e5;
+html, html[data-theme="dark"] {
+    --text-color:               #cdd6f4;
+    --background-color:         #1e1e2e;
+    --link-color:               #313244;
+    --link-color-light:         #bac2de;
+    --toggle-color:             #313244;
+    --toggle-color-light:       #eba0ac;
+    --x-color-light:            #bac2de;
+    --linkedin-color-light:     #89b4fa;
+    --github-color-light:       #bac2de;
+    --spotify-color-light:      #a6e3a1;
 }
 
 @media (prefers-color-scheme: dark) {
-   html, html[data-theme="dark"] { 
-        --text-color:         #ede8e5;
-        --background-color:   #232425;
-        --link-color:         #494f5c;
-        --link-color-light:   #ede8e5;
-        --toggle-color:       #494f5c;
-        --toggle-color-light: #ede8e5;
+   html, html[data-theme="dark"] {
+        --text-color:               #cdd6f4;
+        --background-color:         #1e1e2e;
+        --link-color:               #313244;
+        --link-color-light:         #bac2de;
+        --toggle-color:             #313244;
+        --toggle-color-light:       #eba0ac;
+        --x-color-light:            #bac2de;
+        --linkedin-color-light:     #89b4fa;
+        --github-color-light:       #bac2de;
+        --spotify-color-light:      #a6e3a1;
     }
     
     html, html[data-theme="light"] {
-        --text-color:         #232425;
-        --background-color:   #ede8e5;
-        --link-color:         #dccbcc;
-        --link-color-light:   #232425;
-        --toggle-color:       #dccbcc;
-        --toggle-color-light: #232425;
+        --text-color:               #4c4f69;
+        --background-color:         #eff1f5;
+        --link-color:               #ccd0da;
+        --link-color-light:         #5c5f77;
+        --toggle-color:             #ccd0da;
+        --toggle-color-light:       #e64553;
+        --x-color-light:            #5c5f77;
+        --linkedin-color-light:     #1e66f5;
+        --github-color-light:       #5c5f77;
+        --spotify-color-light:      #40a02b;
     }
 }
 

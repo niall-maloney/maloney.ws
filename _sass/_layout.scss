@@ -53,6 +53,40 @@
     }
   }
 
+a.x-links {
+     @media (hover: hover)  and (pointer: fine) {
+       &:hover {
+         color: $x-color-light;
+     }
+   }
+ }
+
+a.linkedin-links {
+     @media (hover: hover)  and (pointer: fine) {
+       &:hover {
+         color: $linkedin-color-light;
+     }
+   }
+ }
+
+a.github-links {
+     @media (hover: hover)  and (pointer: fine) {
+       &:hover {
+         color: $github-color-light;
+       }
+     }
+   }
+
+
+a.spotify-links {
+     @media (hover: hover)  and (pointer: fine) {
+       &:hover {
+         color: $spotify-color-light;
+     }
+   }
+ }
+
+
 .site-mode {
   font-size: 24px;
   font-weight: 250;
