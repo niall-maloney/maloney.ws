@@ -9,6 +9,7 @@ html, html[data-theme="light"] {
     --linkedin-color-light:     #1e66f5;
     --github-color-light:       #5c5f77;
     --spotify-color-light:      #40a02b;
+    --bsky-color-light:         #04a5e5;
 }
 
 html, html[data-theme="dark"] {
@@ -22,6 +23,7 @@ html, html[data-theme="dark"] {
     --linkedin-color-light:     #89b4fa;
     --github-color-light:       #bac2de;
     --spotify-color-light:      #a6e3a1;
+    --bsky-color-light:         #89dceb;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -36,6 +38,7 @@ html, html[data-theme="dark"] {
         --linkedin-color-light:     #89b4fa;
         --github-color-light:       #bac2de;
         --spotify-color-light:      #a6e3a1;
+        --bsky-color-light:         #89dceb;
     }
     
     html, html[data-theme="light"] {
@@ -49,6 +52,7 @@ html, html[data-theme="dark"] {
         --linkedin-color-light:     #1e66f5;
         --github-color-light:       #5c5f77;
         --spotify-color-light:      #40a02b;
+        --bsky-color-light:         #04a5e5;
     }
 }
 
