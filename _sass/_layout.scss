@@ -32,6 +32,11 @@
     line-height: 60px;
     margin-bottom: 0;
     float: relative;
+
+    user-select: all;
+    -moz-user-select: all;
+    -webkit-user-select: all;
+    -ms-user-select: all;
 }
 
 .site-links {
